@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+
+  font-size: 1.3em;
+
+  line-height: 1.8em;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Questrial", "Helvetica", "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  /*width: 80%;
+  margin: 0 10% 0 10%;*/
+
+  margin-top: 60px;
+}
+
+/** Header and Menu **/
+
+.site-header {
+  position: fixed;
+  top: 0;
+
+  z-index: 3;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  width: 60%;
+  height: 60px;
+  line-height: 60px;
+
+  padding: 0 20% 0 20%;
+
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.site-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.site-logo a {
+  color: #000;
+  text-decoration: none;
+}
+
+.logo-blue {
+  color: #2274a5;
+}
+
+.logo-green {
+  color: #698f3f;
+}
+
+.site-top-nav {
+
+}
+
+.site-top-nav ul {
+  list-style: none;
+  margin: 0;
+
+}
+
+.site-top-nav li {
+  display: inline;
+  margin: 0 10px 0 10px;
+}
+
+.site-top-nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+/** Site Main + Sections **/
+
+.site-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  min-height: 350px;
+
+  color: white;
+  background-color: #698f3f;
+  background-image: url("ferns.jpg");
+
+  /*width: 100%;
+  margin: 0;*/
+
+  width: 60%;
+  padding: 0 20% 0 20%;
+
+  text-align: center;
+
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.hero-inner {
+  z-index: 1;
+}
+
+.image-layer {
+  position: absolute;
+  /*background-color: rgba(105, 143, 63, 0.2);*/
+  background-color: rgba(50, 5, 50, 0.2);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero h1 {
+
+}
+
+.hero p {
+  font-size: 1.3em;
+}
+
+.section.blue {
+  color: white;
+  background-color: #2274a5;
+}
+
+.section.green {
+  color: white;
+  background-color: #698f3f;
+}
+
+.hero {
+
+}
+
+.section {
+  min-height: 300px;
+  width: 60%;
+  padding: 20px 20% 40px 20%;
+}
+
+.section-cols {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-cols-main {
+  width: 60%;
+}
+
+.section-cols-aside {
+  width: 30%;
+}
+
+.infobox {
+  background-color: #114b5f;
+  padding: 10px 30px 20px 30px;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+/** Footer **/
+
+.site-footer {
+  background-color: #353535;
+}
+
+/** Misc **/
+
+.page-anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+}
+
+/** Colours reminder
+
+#2274a5 light blue
+#114b5f lapis
+#353535 grey
+#698f3f green
+#7d1d3f red
+
+**/
