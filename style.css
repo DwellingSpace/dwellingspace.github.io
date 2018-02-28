@@ -112,6 +112,9 @@ blockquote {
 .site-main {
   display: flex;
   flex-direction: column;
+  
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .section.hero {
