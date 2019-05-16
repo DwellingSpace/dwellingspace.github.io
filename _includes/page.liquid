@@ -1,0 +1,27 @@
+---
+layout: main.liquid
+---
+
+{% if headerimage %}
+
+<style type="text/css"> .section.hero {background-image: url("{{headerimage}}")} </style>
+
+<div class="section hero small">
+
+  <div class="image-layer"></div>
+
+  <div class="hero-inner">
+
+    <h1>{{ %if title }}{{title}}{{ %endif }}</h1>
+
+  </div>
+
+</div>
+
+{% endif %}
+
+<div class="section">
+
+  {{content | safe}}
+
+</div>
