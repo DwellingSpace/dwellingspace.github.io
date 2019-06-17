@@ -4,8 +4,6 @@ title: Focusing
 headerimage: "/static/inner_resources_3.jpg"
 ---
 
-# Focusing
-
 ## Focusing-oriented
 
 <blockquote>Every bad feeling is potential energy toward a more right way of being if you give it space to move toward its rightness. Gene Gendlin</blockquote>
@@ -13,6 +11,9 @@ headerimage: "/static/inner_resources_3.jpg"
 Giving gentle attention to how our **body** experiences our life situations can really get to the **heart** of what is stuck or unchanging, and bring a huge amount of **healing**. We can then live with a new freedom.
 
 Our feelings express themselves in and through our body. For example, stress might be felt in the throat, or anxiety in the belly, grief or overwhelming sadness in our chest and heart. I can help you pay gentle and friendly attention to these places in you that might be asking for attention and care, and the opportunity to tell their story.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fHQIvUaOvFw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Here's a video of someone focusing :)
 
 ## Trauma
 
