@@ -112,7 +112,7 @@ blockquote {
 .site-main {
   display: flex;
   flex-direction: column;
-  
+
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -138,6 +138,11 @@ blockquote {
   text-align: center;
 
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.section.hero.small {
+  min-height: 180px;
+  text-align: left;
 }
 
 .hero-inner {
