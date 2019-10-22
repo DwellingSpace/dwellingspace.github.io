@@ -1,0 +1,19 @@
+{
+  "name": "dwellingstack",
+  "version": "1.0.0",
+  "description": "static site toolkit",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DwellingSpace/dwellingspace.github.io.git"
+  },
+  "author": "Maren",
+  "bugs": {
+    "url": "https://github.com/DwellingSpace/dwellingspace.github.io/issues"
+  },
+  "homepage": "https://github.com/DwellingSpace/dwellingspace.github.io#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "moment": "^2.24.0"
+  }
+}
