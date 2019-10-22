@@ -24,5 +24,5 @@ pagination:
 {% endfor %}
 </ul>
 
-<a href="{{ pagination.previousPageHref }}">&laquo; Prev Page</a>
-<a href="{{ pagination.nextPageHref }}">&raquo; Next Page</a>
+{% if pagination.previousPageHref %}<a href="{{ pagination.previousPageHref }}">&laquo; Prev Page</a>{% endif %}
+{% if pagination.nextPageHref %}<a href="{{ pagination.nextPageHref }}">&raquo; Next Page</a>{% endif %}
