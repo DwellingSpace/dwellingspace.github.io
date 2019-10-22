@@ -2,6 +2,16 @@
 layout: main.liquid
 ---
 
+{% if tags contains 'post' %}
+
+<aside class="section section-blue top-banner" id="referrer-banner" style="display:none;">
+<h4>Looking for counselling in London, E8?</h4>
+<p>I am a qualified person-centred and focusing-oriented counsellor working in person in Dalston and online.</p>
+<a href="/">Find out more</a>
+</aside>
+
+{% endif %}
+
 {% if headerimage %}
 
 <style type="text/css"> .section.hero {background-image: url("{{headerimage}}")} </style>
@@ -18,9 +28,15 @@ layout: main.liquid
 
 </div>
 
-{% endif %}
+<div class="section">
+
+{% else %}
 
 <div class="section">
+
+<h1>{{ %if title }}{{title}}{{ %endif }}</h1>
+
+{% endif %}
 
   {{content | safe}}
 

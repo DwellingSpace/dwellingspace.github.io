@@ -1,0 +1,7 @@
+---
+layout: page.liquid
+---
+
+{% if page.date %} <div class="meta">Published on {{ page.date | formatDatePublished }}</div> {% endif %}
+
+{{ content|safe }}

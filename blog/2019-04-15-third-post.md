@@ -1,6 +1,6 @@
 ---
 title: Blog Post 3
-tags: post
+tags: ['post', 'video']
 ---
 
-This could be a blog post!
+This could be a blog post with a video!
