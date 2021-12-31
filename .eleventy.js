@@ -8,6 +8,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("static");
 
   eleventyConfig.addPassthroughCopy("CNAME");
+  
+  eleventyConfig.addPassthroughCopy("admin");
 
   // custom filters
 
